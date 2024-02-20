@@ -18,7 +18,6 @@
     padding: 0px;
 }
 body{
-    min-height: 100%;
     background-color: rgba(254, 239, 218, 0.918);
     font-family: var(--fonte_destaque);
 }
