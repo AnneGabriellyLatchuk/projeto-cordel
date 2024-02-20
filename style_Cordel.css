@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+    --cor1:#E87461;
+    --cor2:#F25C54;
+    --cor3:#AF9B46;
+
+    --fonte_padrao: 'Concert One', arial, verdana, sans-serif;
+    --fonte_destaque: 'Lagosta', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100%;
+    background-color: rgba(254, 239, 218, 0.918);
+    font-family: var(--fonte_destaque);
+}
+
+header{
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.386);
+    font-family: var(--fonte_padrao);
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte_padrao);
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:var(--cor3);
+    text-decoration: underline;
+}
+
+main{
+    text-align: justify;
+    padding: 15px;
+
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.316);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.644);
+}
+
+section#img1{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img2{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+footer{
+    background-color: var(--cor2);
+    font-family: var(--fonte_padrao);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+footer a:hover{
+    color:var(--cor3);
+    text-decoration: underline;
+}
