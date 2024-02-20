@@ -32,14 +32,14 @@ header{
 }
 
 header > h1{
-    padding-top: 50px;
+    padding-top: 40px;
     font-variant: small-caps;
     font-family: var(--fonte_padrao);
-    font-size: 10vw;
+    font-size: 5vw;
 }
 
 header > p{
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 header a{
